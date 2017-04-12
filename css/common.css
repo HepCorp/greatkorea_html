@@ -14,10 +14,13 @@
 .loginWrap {
 	width: 100%;
 	height: 40px;
-	background-color: #000;
 	font-family: NotoSansLT;
 }
-
+.loginBox {
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+}
 #login {
 	width: 1024px;
 	height: 40px;
@@ -147,16 +150,16 @@
 }
 
 .titleSection {
-   width:1024px;
-   height: 150px;
-   margin: 0 auto;
-   text-align:center;
+	width: 1024px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .titleWrap {
 	position: absolute;
    width: 1024px;
-   height:170px;
+   height:100px;
    margin: 0 auto;
 }
 
@@ -215,9 +218,12 @@
 	background-color: #fff;
 }
 
-#footer .footer_inner{
-	margin:0 auto;
-	width:1024px;
+.footer_inner{
+	margin: 0 auto;
+	width: 1024px;
+	height: 140px;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 #footer .footer_inner address{
@@ -231,7 +237,6 @@
 #footer .footer_inner p:nth-of-type(1){
 	float:left;
 	font-weight:bold;
-	margin-top:20px;
 }
 
 #footer .footer_inner p{
