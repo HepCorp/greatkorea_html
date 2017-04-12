@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>비밀번호 변경</title>
+<link rel="stylesheet" href="/greatkorea_html/css/reset.css" />
+<link rel="stylesheet" href="/greatkorea_html/css/common.css" />
+<link rel="stylesheet" href="/greatkorea_html/css/pw_modify.css" />
+	<link rel="shortcut icon" href="/greatkorea_html/images/hep-favicon.ico" />
+<script type="text/javascript" src="/greatkorea_html/jquery-3.1.1/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="/greatkorea_html/js/pw_modify.js"></script>
+</head>
+<body>
+	<div class="modify_div">
+		<p class="close"><a href="#"><img src="/greatkorea_html/images/close_btn.png"alt="close" /></a></p>
+		<div class="modify_inner">
+			<h1>비밀번호 변경</h1>
+			<p>영문,숫자.특수문자 조합 8~20</p>
+			 <ul>
+				<li>
+					<input id="originUserPw" name="userPw" placeholder="기존 비밀번호" maxlength="20" type="text" class="input_box">
+                    <span id="notOriginalPw" class="fc_red" style="display:none;">기존 비밀번호와 일치하지 않습니다.</span>
+                    <span id="originalPw1" class="fc_sky" style="display:none;">기존 비밀번호와 일치합니다.</span>
+                    
+	       		</li>
+	       		<li>
+	       			<input id="newUserPw" name="newUserPw" placeholder="새 비밀번호" maxlength="20" type="password" class="input_box">
+	       			<span id="cantUsePw" class="fc_red" style="display:none;">사용할 수 없는 비밀번호 입니다.</span>
+	       			<span id="canUsePw" class="fc_sky" style="display:none;">사용 가능한 비밀번호 입니다.</span>
+	       		</li>
+	       		<li>
+	       			<input id="newUserPw2" name="newUserPw2" placeholder="비밀번호 확인" maxlength="20" type="password" class="input_box">
+	       			<span id="differentPw" class="fc_red" style="display: none;">비밀번호가 일치하지 않습니다.</span>
+	       			<span id="samePw" class="fc_sky" style="display: none;">비밀번호가 일치합니다.</span>
+	       		</li>
+			 </ul>
+			 <button type="button" class="btn">비밀번호 변경</button>
+		 </div>
+	</div>
+</body>
+</html>

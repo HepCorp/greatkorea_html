@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+#errorWrap {
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+}
+
+#errorCon {
+	width: 100%;
+	height: 200px;
+}
+
+#errorImg {
+	width: 1024px;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#error {
+	position: absolute;
+	width: 1024px;
+	height: 170px;
+	margin: 250px auto 0;
+}
+
+#error img {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
+#errorTextCon {
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#errorText {
+	width: 1024px;
+	height: 720px;
+	margin: 0 auto;
+	text-align: center;
+	color: #FFF;
+}
+
+#errorText h1 {
+	color: #F5C124;
+	font-size: 78px;
+	margin-top: 300px;
+	font-family: HelveticaBd;
+}
+
+#errorText h3 {
+	color: #FFF;
+	font-size: 36px;
+	margin-top: 20px;
+	font-family: NotoSansRE;
+}
